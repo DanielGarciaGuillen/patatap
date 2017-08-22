@@ -6,6 +6,8 @@
 <script type="text/javascript" src="patatap.js"></script>
 <link rel="stylesheet" href="style.css ">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.4/howler.core.min.js"></script>
+<script src="https://use.fontawesome.com/ce1893bfaa.js"></script>
+
 
 
 <script type="text/paperscript" canvas="myCanvas">
@@ -159,13 +161,18 @@ function onFrame(event){
         circles[i].fillColor.hue +=.65;
         circles[i].scale(.93);
     }
-  }    
+  } 
+
+  
+
+  
 </script>
 
 </head>
 <body>
 
-    <h3> Press any key from your keyboard </h3>
+    <h3><span class="title"> Press any key <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+ </span></h3>
     <canvas id="myCanvas" resize></canvas>
 
 
